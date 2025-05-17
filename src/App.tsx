@@ -28,7 +28,7 @@ function App() {
       //console.log('Helloworld contract deployed: ', deployTx.id)
       //alert('deployed: ' + deployTx.id)
 
-      let tx = new bsv.Transaction(deployTx);
+      let tx = new bsv.Transaction(deployTx.toString());
 
       //tx.fromHex(deployTx)
 
